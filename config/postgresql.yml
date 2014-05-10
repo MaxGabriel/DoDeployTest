@@ -1,0 +1,24 @@
+Default: &defaults
+  user: postgres
+  password: DoDeployTest
+  host: localhost
+  port: 5432
+  database: DoDeployTest
+  poolsize: 10
+
+Development:
+  <<: *defaults
+
+Testing:
+  database: DoDeployTest_test
+  <<: *defaults
+
+Staging:
+  database: DoDeployTest_staging
+  poolsize: 100
+  <<: *defaults
+
+Production:
+  database: DoDeployTest_production
+  poolsize: 100
+  <<: *defaults
