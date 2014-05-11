@@ -2,7 +2,6 @@ exec: ../dist/build/DoDeployTest/DoDeployTest
 args:
     - production
 host: "http://www.yesodonrails.com"
-postgres: true
 root: ../static
 
 # Use the following to automatically copy your bundle upon creation via `yesod
