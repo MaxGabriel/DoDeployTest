@@ -19,6 +19,6 @@ Staging:
   <<: *defaults
 
 Production:
-  database: DoDeployTest_production
+  database: dodeploytest_production
   poolsize: 100
   <<: *defaults
