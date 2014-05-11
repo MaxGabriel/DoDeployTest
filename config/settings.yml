@@ -15,5 +15,5 @@ Staging:
   <<: *defaults
 
 Production:
-  approot: "http://www.yesodonrails.com"
+  approot: "yesodonrails.com"
   <<: *defaults
